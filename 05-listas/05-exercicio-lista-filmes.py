@@ -20,20 +20,21 @@
 # Filmes cadastrados:
 # ['Avatar', 'Batman', 'Titanic']
 
+# Vai usar
+# append() adiciona um novo item no final da lista.
 
-listaFilmes = []
-
+filmes = []
 
 filme = input("Digite um filme: ")
 
-while filme != "sair": 
-    listaFilmes.append(filme)
-    print("Voce adicionou um filme.")
+while filme != "sair":
+
+    filmes.append(filme)
 
     if filme == "Batman":
-        print("Voce adicionou batman.")
+        print("Você adicionou Batman!")
 
-    filme = input("Digite um filme ou sair: ")
+    filme = input("Digite outro filme ou sair: ")
 
-print("filmes cadastrados: ")
-print(listaFilmes)
+print("Filmes cadastrados:")
+print(filmes)
